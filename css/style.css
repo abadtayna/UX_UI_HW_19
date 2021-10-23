@@ -1,0 +1,235 @@
+/* Logo */
+#logo { 
+  padding:0; 
+  width:auto; 
+  float:left;
+}
+
+/* Header */
+#header { 
+  background:#fff; 
+}
+#header-inner {
+   margin:0 auto; 
+   padding:0; 
+   width:970px;
+  }
+
+/* Feature */
+.feature { 
+  background-color: white;
+  padding:18px;
+}
+.feature-inner { 
+  margin:auto;
+  width:970px; 
+}
+.feature-inner h1 {
+  color:white;
+  font: size 32px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation */
+#top-nav { 
+  margin:0 auto; 
+  padding:0px 0 0; 
+  height:37px; 
+  float:right;
+}
+#top-nav ul { 
+  list-style:none; 
+  padding:0; 
+  height:37px; 
+  float:left;
+  font-family: 'Courier New', Courier, monospace;
+}
+#top-nav ul li { 
+  margin:0; 
+  padding:0 0 0 8px; 
+  float:left;
+}
+#top-nav ul li a { 
+  display:block; 
+  margin:0; 
+  padding:8px 20px; 
+  color:black; 
+  text-decoration:none;
+}
+#top-nav ul li.active a, #top-nav ul li a:hover {
+  color:lightslategray;
+  text-decoration: underline;
+ } 
+ 
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: lightslategray;
+ }
+  
+ /* The dots/bullets/indicators */
+ .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+ }
+ .active, .dot:hover {
+  background-color: #717171;
+ }
+ 
+/* cards */
+* {
+  box-sizing: border-box;
+}
+.card {
+  color: black;
+  float: left;
+  width: calc(25% - 20px);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 200px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600; 
+  font-family: 'Open Sans', sans-serif;
+  color:#4e4e4e;
+  font-size: 20px;
+}
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card p {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em
+}
+.cardContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+@media screen and (max-width: 600px) {
+  .card {
+     width: 100%;
+  }
+}
+
+/* Work */
+* {
+  box-sizing: border-box;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color:#4e4e4e;
+  font-size: 20px;
+}
+.outer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+}
+.inner-grid {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.inner-grid img {
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px;
+}
+@media screen and (max-width: 800px) {
+  .inner-grid {
+     flex: 50%;
+     max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .inner-grid {
+     flex: 100%;
+     max-width: 100%;
+  }
+}
+/* Footer */
+.social-footer {
+  padding: 1rem;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.work {
+  color: white;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+#footer-inner {
+  color: white;
+  margin:auto;
+}
